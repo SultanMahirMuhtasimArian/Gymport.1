@@ -647,8 +647,8 @@ button.calculate-btn:hover {
 
         gap: 10px;
 
-        border: 2px solid salmon ;
-
+/*         border: 2px solid salmon ;
+ */
         width: 150%;
 
     }
@@ -701,8 +701,8 @@ button.calculate-btn:hover {
     .p2img{
 
 
-        border: 2px solid green ;
-
+/*         border: 2px solid green ;
+ */
 
         flex-direction: column; 
 
