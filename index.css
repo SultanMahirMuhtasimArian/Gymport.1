@@ -675,7 +675,7 @@ button.calculate-btn:hover {
 
         margin-right: auto; */
 
-        border: 2px solid  #E6533C ;
+/*         border: 2px solid  #E6533C ; */
 
 
     }
@@ -692,8 +692,8 @@ button.calculate-btn:hover {
 
     .main{
 
-        border: 2px solid green ;
-
+/*         border: 2px solid green ;
+ */
         justify-content: center;
     }
 
@@ -715,8 +715,8 @@ button.calculate-btn:hover {
 
     height: 1000%;  
 
-    border: 2px solid palevioletred ;
-
+/*     border: 2px solid palevioletred ;
+ */
     flex-direction: column; 
 
     width: 50%;
@@ -730,8 +730,8 @@ button.calculate-btn:hover {
 
    .runtxt{
 
-    border: 2px solid green ;
-
+/*     border: 2px solid green ;
+ */
     height: 500%; 
 
     width: 80%; 
@@ -757,7 +757,7 @@ button.calculate-btn:hover {
     gap: 30px; /* Adjusted gap for sufficient space */
     max-width: 500px; 
 
-    margin-left: 185px; 
+    margin-left: 128px; 
 }
 
 
@@ -782,7 +782,7 @@ button.calculate-btn:hover {
     background-color: #292929;
     
 
-    margin-left: 150px;
+    margin-left: 110px;
  
 }    
 
