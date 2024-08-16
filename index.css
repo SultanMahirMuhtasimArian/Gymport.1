@@ -344,7 +344,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1370px;
+    max-width: 1470px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -364,8 +364,8 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    gap: 30px; /* Adjusted gap for sufficient space */
-    max-width: 1370px;
+    gap: 290px; /* Adjusted gap for sufficient space */
+    width: 1470px;
 }
 
 /* BMI Chart */
@@ -481,6 +481,18 @@ button.calculate-btn:hover {
     
     
 } 
+
+.trcontainer {
+    position: relative;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+    text-align: left;
+  }
 
 .team{
 
@@ -622,6 +634,46 @@ button.calculate-btn:hover {
 
    @media screen and (max-width:576px) {
 
+
+    /* font */
+
+    .smallfont{
+
+        color: #FFFFFF80;
+        font-size: 15px;
+    
+    
+    } 
+    
+    .headingfont{ 
+    
+    color: white;
+    
+    font-size: 50px;
+    
+    
+    
+    }
+    
+    .whitefont{ 
+    
+        color: white ;
+    
+    
+    }  
+    
+    .medfont{
+    
+        color: white;
+        font-size: 30px;
+    }
+    
+    .shape{
+    
+        font-family: cursive;
+        font-size: 60px;
+    }
+
     .homepg{
 
 
@@ -655,15 +707,25 @@ button.calculate-btn:hover {
 
     .orangebtn , .blackbtn {
 
-        width: 70%;
+        width: 100%;
+        height: 100%;
+
+        font-size: 15px;
+
+        gap: 40px;
 
     }
 
     .body{
 
 
-        width: 200%;
+        width: 100%;
 
+        /* width: fit-content; */
+
+        margin: auto;
+
+        padding: auto;
     
         justify-content: center;
 
@@ -678,6 +740,11 @@ button.calculate-btn:hover {
 /*         border: 2px solid  #E6533C ; */
 
 
+    }
+
+    .container{
+
+        width: 100%;
     }
 
     .hmsec{
@@ -695,6 +762,8 @@ button.calculate-btn:hover {
 /*         border: 2px solid green ;
  */
         justify-content: center;
+
+        width: fit-content;
     }
 
 
@@ -713,20 +782,34 @@ button.calculate-btn:hover {
    .runcard{ 
 
 
-    height: 1000%;  
+    height: 100%;  
 
 /*     border: 2px solid palevioletred ;
  */
     flex-direction: column; 
 
-    width: 50%;
+    width: 100%;
+
+    justify-content: center;
 
     padding: 5px 1px 30px 25px;
+
+    margin-left: 2px;
 
 
   
      
    }  
+
+   .tp{
+
+    gap: 100px;
+    align-items: center;
+
+    display: flex;
+    justify-content: space-between;
+
+   }
 
    .runtxt{
 
@@ -747,6 +830,12 @@ button.calculate-btn:hover {
 
    }
 
+   .container{
+
+    margin-left: 1px;
+    margin-right: 10px;
+   }
+
    .bmi-section {
     background-color: #1c1c1c;
     padding: 20px;
@@ -754,12 +843,22 @@ button.calculate-btn:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 30px; /* Adjusted gap for sufficient space */
-    max-width: 500px; 
+    gap: 30px; /*  */
+    /* max-width: 500px;  */
 
-    margin-left: 128px; 
+    width: 100%;
+    
+
+    margin-left: 1px; 
 }
 
+.teamsection{
+
+
+    width: 100%;
+
+    margin-right: 150px;
+}
 
 .team{
 
@@ -775,14 +874,14 @@ button.calculate-btn:hover {
 
     border-radius: 10px;
 
-    width: 1240px;
+    /* width: 100%; */
 
     width: fit-content; 
 
     background-color: #292929;
     
 
-    margin-left: 110px;
+    margin-left: 40px;
  
 }    
 
@@ -790,9 +889,9 @@ button.calculate-btn:hover {
 
     height: 800px;
 
-    width: 60%;
+    width: 100%;
 
-    margin-left: 200px;
+    margin-left: 0px;
 } 
 
 .footer-container{
@@ -837,6 +936,13 @@ button.calculate-btn:hover {
    
     
    } 
+
+
+
+
+
+
+
 
 
 
