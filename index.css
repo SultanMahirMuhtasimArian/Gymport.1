@@ -344,7 +344,7 @@ body {
 
 /* Container */
 .container {
-    max-width: 1200px;
+    max-width: 1370px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -365,7 +365,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 30px; /* Adjusted gap for sufficient space */
-    max-width: 1200px;
+    max-width: 1370px;
 }
 
 /* BMI Chart */
